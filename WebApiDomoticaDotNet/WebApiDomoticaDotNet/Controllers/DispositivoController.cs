@@ -19,6 +19,11 @@ namespace WebApiDomoticaDotNet.Controllers
             return repositorio.ObterDispositivoAll();
         }
 
+        [HttpPost]
+        public Evento LigarDispositivo(int pino)
+        {
+            return repositorio.LigarDipositivo(pino);
+        }
 
     }
 }
