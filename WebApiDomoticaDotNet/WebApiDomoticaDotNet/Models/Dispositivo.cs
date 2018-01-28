@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Web;
 
@@ -7,12 +8,13 @@ namespace WebApiDomoticaDotNet.Models
 {
     public class Dispositivo
     {
-        private string Nome { get; set;}
+        public string Nome { get; set;}
 
-        private string Pino { get; set; }
+        public string Pino { get; set; }
 
-        private Boolean Estado { get; set; }
+        public Boolean Estado { get; set; }
 
-        private string Utilizador { get; set; }
+        public string Utilizador { get; set; }
+
     }
 }
